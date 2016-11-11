@@ -33,13 +33,13 @@
           mvn clean deploy
 
 
-3. 下载mybatis-generator-1.3.5
+3. 下载mybatis-generator-fix(https://github.com/peterzhu1688/mybatis-generator-fix)
 
-          //TODO 
+          git clone https://github.com/peterzhu1688/mybatis-generator-fix.git
+
 
 4. 修改generator.properties配置jdbc相关信息
-
-
+  
 5. 修改generatorConfig.xml配置生成策略和目标table
   
 6. 执行 mvn mybatis-generator:generate即可。
